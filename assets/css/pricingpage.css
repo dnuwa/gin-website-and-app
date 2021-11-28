@@ -1,0 +1,313 @@
+.subscriptions-container {
+  margin-top: 90px;
+}
+
+.pricing-inner {
+  /* width: 92%; */
+  margin: auto;
+  background: white;
+  border: solid 1px #cfcfcf;
+  padding: 20px;
+}
+
+.pricing-header {
+  text-align: center;
+  font-size: 20px;
+  background: #b40d17;
+  color: white;
+  width: 100%;
+}
+
+th > p {
+  border-left: solid white;
+  padding-left: 6px;
+  color: white;
+}
+
+.pricing-table > thead {
+  background: #b40d17;
+}
+
+.signup-link {
+  text-align: center;
+}
+
+.signup-link > a {
+  color: white;
+  background: #008329;
+  padding: 8px 26px;
+  font-weight: bold;
+}
+
+.pricing-table thead th {
+  border-bottom: 2px solid #b40d17 !important;
+}
+
+.pricing-table td {
+  text-align: center;
+}
+
+.pricing-table td,
+.pricing-table th {
+  padding: 16px 15px;
+}
+
+.payments-inner {
+  width: 60%;
+  margin: auto;
+}
+
+.payment-header {
+  margin: 20px 0 5px 0;
+}
+
+.payment-header > p {
+  margin: 2px 54px;
+}
+
+.no-tag {
+  background: #b40d17;
+  color: white;
+  padding: 12px;
+  border-radius: 50%;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.discount-section {
+  width: 46%;
+  background: white;
+  margin: auto;
+}
+
+.discount-div {
+  padding: 20px;
+  text-align: center;
+  border: solid 1px #cfcfcf;
+}
+
+.discount-div h6 {
+  font-weight: bold;
+}
+
+.discount-div:hover {
+  cursor: pointer;
+  border-bottom: solid #b40d17;
+}
+
+.discount-summary {
+  background: white;
+  border: solid 1px #cfcfcf;
+  margin: 14px;
+}
+
+.summary-header {
+  border-bottom: solid 1px #cfcfcf;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.summary-header h6,
+.summary-sub-header h6 {
+  float: right;
+}
+
+.summary-header p {
+  font-style: italic;
+  color: yellowgreen;
+}
+
+.summary-sub-header {
+  font-weight: bold;
+  padding: 20px;
+  padding: 0 20px 12px;
+}
+
+.summary-text {
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.payment-selection {
+  margin: 14px;
+  width: 100%;
+  background: white;
+  border: solid 1px #cfcfcf;
+}
+
+.payment-footer {
+  text-align: center;
+  margin: 20px;
+}
+
+.payment-options {
+  padding: 20px;
+  border-bottom: solid 1px #cfcfcf;
+}
+
+.preview-btn a,
+.preview-btn button {
+  color: white;
+  background: #b40d17;
+  border: solid 1px #b40d17;
+  padding: 5px 60px;
+  font-weight: bold;
+}
+
+.checkout-btn {
+  text-align: center;
+}
+
+.payment-details {
+  display: inline-grid;
+  text-align: left;
+  margin: 8px;
+}
+
+.payment-details > label {
+  margin: 0px;
+}
+
+.payment-details > input {
+  width: 286px;
+  padding: 3px;
+  border: solid 1px #cfcfcf;
+  border-radius: 2px;
+}
+
+.ex-page-selection {
+  display: flex;
+  width: 170px;
+}
+
+.security-code {
+  display: inline-grid;
+  margin-left: 15px;
+}
+
+.ex-card-date > label {
+  margin: 0px;
+}
+
+.security-code > input {
+  width: 100px;
+  border: solid 1px #cfcfcf;
+  border-radius: 2px;
+}
+
+.card-date-code {
+  display: flex;
+}
+
+.security-code > label {
+  margin: 0px;
+}
+
+.payment-footer > button {
+  margin: 20px;
+}
+
+.faqs-div {
+  margin: auto;
+  width: 100%;
+  background: white;
+  border: solid 1px #cfcfcf;
+  margin: 14px;
+}
+
+.faqs-header {
+  background: #f5f5f5;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.faqs-qns {
+  display: flex;
+  margin: 20px;
+}
+
+.qn-section {
+  padding: 16px;
+  font-size: 12px;
+}
+
+.gin-copy-right {
+  padding: 10px;
+}
+
+.preview-section {
+  background: white;
+  border: solid 1px #cfcfcf;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.summery-terms {
+  background: #f5f5f5;
+  margin: 20px;
+  padding: 15px;
+}
+
+.preview-btn {
+  text-align: center;
+  margin: 10px;
+}
+
+@media screen and (max-device-width: 768px) {
+  .pricing-inner {
+    width: 100%;
+  }
+
+  .discount-div {
+    width: 100%;
+  }
+
+  .payment-selection {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .payment-header > h5 {
+    margin-bottom: 20px;
+  }
+
+  .payment-details > input {
+    width: 223px;
+  }
+
+  .security-code {
+    margin-left: 10px;
+  }
+
+  .security-code > input {
+    width: 90px;
+  }
+
+  .card-date-code {
+    display: inline;
+  }
+
+  .payments-inner {
+    width: 90%;
+  }
+
+  .discount-section {
+    width: 100%;
+  }
+
+  .subscriptions-container {
+    margin-top: 46px;
+  }
+
+  .faqs-div {
+    margin: 0px;
+  }
+
+  .discount-summary {
+    margin: 0px;
+  }
+
+  .payment-header > p {
+    margin: 2px 8px;
+  }
+}

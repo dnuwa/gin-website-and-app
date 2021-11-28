@@ -1,0 +1,1560 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <title>Who is online</title>
+
+    <!-- BEGIN: GIN CSS-->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/gin-favicons/favicon-16x16.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/colors.min.css">
+    <!-- END: GIN CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/star-rating-svg.css">
+    <!-- END: Custom CSS-->
+
+    <!-- BEGIN: Page JS-->
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="assets/css/all.min.css"> -->
+    <!-- END: Page JS-->
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="horizontal-layout horizontal-menu 2-columns " data-open="click" data-menu="horizontal-menu"
+    data-col="2-columns">
+
+    <div id="mySidenav" class="sidenav">
+        <div class="mobile-sidebar-display home-left-sticky-component width---250px">
+            <div class="card border-light">
+                <div class="text-white card-header bg-red-extra d-flex align-items-center rounded-0">
+                    <h4 class="text-center text-white card-title text-bold-600 text-capitalize w-100">
+                        My Dashboard</h4>
+                    <a href="javascript:void(0)" class="text-white closebtn" onclick="closeNav()">×</a>
+                </div>
+                <div class="user-info">
+                    <div class="text-center user-name d-block">
+                        <img class="rounded-circle" src="assets/images/portrait/small/avatar-s-9.png" alt="">
+                        <div class="text-center">
+                            <h6>Holley Scott</h6>
+                            <p>job_title</p>
+                            <p>company_name</p>
+                            <p>
+                                <button href="javascript:void();" class="text-white btn btn-sm btn-danger-2 my-50">
+                                    <small>
+                                        <b>Upgrade Free Account</b>
+                                    </small>
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+
+                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                        <li><img src="assets/images/icons/Icons-in-Black-23.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                href="meeting-agenda.html">Meetings
+                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span>
+                            </a>
+
+                        </li>
+                        <li><img src="assets/images/icons/Icons-in-Black-24.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                href="meetup-requests.html">Meetup
+                                requests <span
+                                    class="badge badge-secondary badge-red-extra mb-25 pull-right">xx</span></a>
+                        </li>
+                        <li><i class="fa fa-inbox"></i>&nbsp;&nbsp;<a href="messages.html">Messages
+                                <span class="badge badge-secondary badge-outline-secondary pull-right">xx</span></a>
+                        </li>
+                        <li><i class="fa fa-bell"></i>&nbsp;&nbsp;<a href="notifications.html">Notifications
+                                <span class="badge badge-secondary badge-red-extra mb-25 pull-right">xx</span></a>
+                        </li>
+                        <li>
+                            <img src="assets/images/Task-black-01.svg" width="35" alt="">&nbsp;
+                            <a href="my-notes-and-events.html">
+                                My Tasks & Notes
+                                <span class="badge badge-outline-secondary mb-25 pull-right">
+                                    xx
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                        <li><img src="assets/images/icons/Icons-in-Black-02.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                href="my-events.html">My
+                                Events
+                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span>
+                            </a>
+                        </li>
+                        <li><i class="fa fa-calendar-alt"></i>&nbsp;&nbsp;<a href="my-calendar.html">My
+                                Calendar</a>
+                        </li>
+                    </ul>
+                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                        <li><img src="assets/images/icons/Icons-in-Black-11.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                href="my-connection.html">My
+                                Connections
+                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                        </li>
+                        <li><i class="fa fa-user-plus"></i>&nbsp;&nbsp;<a href="connection-requests.html">Connection
+                                Requests
+                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                        </li>
+                        <li><i class="fa fa-rss-square"></i>&nbsp;&nbsp;<a href="following.html">Following
+                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                        </li>
+                        <li><img src="assets/images/icons/Icons-in-Black-09.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                href="followers.html">Followers
+                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                        </li>
+                        <li><img src="assets/images/icons/Icons-in-Black-04.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                href="who-is-online.html">Who's online
+                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                        </li>
+                    </ul>
+                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                        <li><img src="assets/images/icons/Icons-in-Black-12.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                href="my-profile-views.html">My
+                                Profile Views
+                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                        </li>
+                        <li><img src="assets/images/icons/Icons-in-Black-12.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                href="my-opportunity.html">My Opportunity...
+                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                        </li>
+                    </ul>
+                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                        <li><i class="fa fa-database"></i>&nbsp;&nbsp;<a href="company-bookmarks.html">Company
+                                Bookmarks</a></li>
+                        <li><i class="fa fa-user-circle"></i>&nbsp;&nbsp;<a href="profile-edit.html">Update
+                                Profile</a></li>
+                        <li><img src="assets/images/icons/Contacts.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                href="contact-us.html">Contact Us</a></li>
+                        <li><img src="assets/images/icons/blank.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                href="imprint.html">Imprint/Terms</a></li>
+                    </ul>
+                    <img src="assets/images/logo-1.png" alt="" class="pt-2 img-fluid pb-25">
+                    <img src="assets/images/logo-2.png" alt="" class="pb-2 img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BEGIN: Header-->
+    <header id="headerNavbar">
+        <div class="container">
+            <nav class="px-0 navbar">
+                <a class="navbar-brand" href="index.html">
+                    <img class="brand-logo" alt="Global Games Industry Network Logo" src="assets/images/logo/logo.png">
+                </a>
+
+                <ul class="ml-auto nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><img src="assets/images/home-generted-white.svg" alt=""
+                                class="nav-img-cons-white mb-50" width="30"><img
+                                src="assets/images/home-generted-black.svg" class="mr-2 nav-img-cons-black mb-50 ml-50"
+                                width="30" alt=""><br>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="database.html"><i class="fa fa-database"></i><br>Industry <br>
+                            Database <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html"><img src="assets/images/icons/Icons-in-White-02.svg"
+                                alt="" class="nav-img-cons-white" width="48"><img
+                                src="assets/images/icons/Icons-in-Black-02.svg" class="nav-img-cons-black" width="48"
+                                alt="">
+                            <br>Events/<br class="d-none d-lg-flex">Planning
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="networking.html"><img src="assets/images/icons/Icons-in-White-04.svg"
+                                alt="" class="nav-img-cons-white" width="48"><img
+                                src="assets/images/icons/Icons-in-Black-04.svg" class="nav-img-cons-black" width="48"
+                                alt=""><br>Industry <br> Network
+                            <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="marketplace.html"><img src="assets/images/icons/Icons-in-White-18.svg"
+                                alt="" class="nav-img-cons-white" width="48"><img
+                                src="assets/images/icons/Icons-in-Black-03.svg" class="nav-img-cons-black" width="48"
+                                alt=""><br>Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="crm-contacts.html"><i class="fa fa-address-card"></i><br>
+                            Biz Dev<br class="d-none d-lg-flex">
+                            Contacts <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="crm.html"><img src="assets/images/icons/Icons-in-White-01.svg" alt=""
+                                class="nav-img-cons-white" width="48"><img
+                                src="assets/images/icons/Icons-in-Black-01.svg" width="48" class="nav-img-cons-black"
+                                alt=""><br>Biz Dev<br class="d-none d-lg-flex">pipeline <span
+                                class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item d-block d-md-none">
+                        <a class="nav-link" href=""><i class="fa fa-newspaper-o"></i><br>
+                            Industry News <span class="text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item d-block d-md-none">
+                        <a class="nav-link" href=""><i class="fa fa-file-text"></i><br>
+                            News from our team <span class="text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item d-block d-md-none">
+                        <a class="nav-link" href="profile.html"><i class="fa fa-user"></i><br>
+                            My Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html"><i class="fa fa-tags"></i><br>
+                            Pricing
+                        </a>
+                    </li>
+                    <li class="nav-item d-block d-md-none">
+                        <a class="nav-link" href="my-notes-and-events.html">
+                            <img src="assets/images/Task-black-01.svg" width="35" alt="">&nbsp;
+                            My Tasks &amp; Notes
+                        </a>
+                    </li>
+                    <li class="border-0 nav-item auth-link">
+                        <div class="pt-1 dropdown">
+                            <a class="bg-transparent nav-link nav-item-wrapper dropdown-toggle" href="#" role="button"
+                                id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="assets/images/portrait/small/avatar-s-1.png" class="round mr-50" width="40px"
+                                    alt="user-avatar">
+                                <p>Scott</p>
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="profile-edit.html"><i class="fa fa-user"
+                                        aria-hidden="true"></i> Profile</a>
+                                <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>
+                                    Logout</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="menu-toggle">
+                    <div class="hamburger">
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- END: Header-->
+
+    <!-- END: Main Menu-->
+    <!-- BEGIN: Content-->
+    <div class="mx-1 mt-2 app-content center-layout">
+        <div class="container">
+            <div class="content-overlay"></div>
+            <div class="content-wrapper">
+
+                <div class="content-body">
+                    <!-- User Feed -->
+
+                    <section id="user-feed">
+                        <div class="row">
+                            <!-- Feed Section -->
+                            <div class="col-lg-3 d-none d-xl-block">
+                                <div class="home-left-sticky-component sticky-component-full-screen">
+                                    <div class="card border-light">
+                                        <div class="text-white card-header bg-red-extra d-flex align-items-center">
+                                            <h4
+                                                class="text-center text-white card-title text-bold-600 text-uppercase w-100">
+                                                My Dashboard</h4>
+                                        </div>
+                                        <div class="user-info">
+                                            <div class="text-center user-name d-block">
+                                                <img class="rounded-circle"
+                                                    src="assets/images/portrait/small/avatar-s-9.png" alt="">
+                                                <div class="text-center">
+                                                    <h6>Holley Scott</h6>
+                                                    <p>job_title</p>
+                                                    <p>company_name</p>
+                                                    <p><a href="javascript:void();"
+                                                            class="btn btn-sm btn-danger-2 my-50"><small><b>Upgrade Free
+                                                                    Account</b></small></a></p>
+                                                </div>
+                                            </div>
+
+                                            <ul class="text-truncate pl-25 sidebar-ul-border">
+                                                <li><img src="assets/images/icons/Icons-in-Black-23.svg" width="35"
+                                                        alt="">&nbsp;&nbsp;<a href="meeting-agenda.html">Meetings
+                                                        <span
+                                                            class="badge badge-outline-secondary pull-right mt-25">xx</span>
+                                                    </a>
+
+                                                </li>
+                                                <li><img src="assets/images/icons/Icons-in-Black-24.svg" width="35"
+                                                        alt="">&nbsp;&nbsp;<a href="meetup-requests.html">Meetup
+                                                        requests <span
+                                                            class="badge badge-secondary badge-red-extra mb-25 pull-right">xx</span></a>
+                                                </li>
+                                                <li><i class="fa fa-inbox"></i>&nbsp;&nbsp;<a
+                                                        href="messages.html">Messages
+                                                        <span
+                                                            class="badge badge-secondary badge-outline-secondary pull-right">xx</span></a>
+                                                </li>
+                                                <li><i class="fa fa-bell"></i>&nbsp;&nbsp;<a
+                                                        href="notifications.html">Notifications
+                                                        <span
+                                                            class="badge badge-secondary badge-red-extra mb-25 pull-right">xx</span></a>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Task-black-01.svg" width="35" alt="">&nbsp;
+                                                    <a href="my-notes-and-events.html">
+                                                        My Tasks & Notes
+                                                        <span class="badge badge-outline-secondary mb-25 pull-right">
+                                                            xx
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <ul class="text-truncate pl-25 sidebar-ul-border">
+                                                <li><img src="assets/images/icons/Icons-in-Black-02.svg" width="35"
+                                                        alt="">&nbsp;&nbsp;<a href="my-events.html">My
+                                                        Events
+                                                        <span
+                                                            class="badge badge-outline-secondary pull-right mt-25">xx</span>
+                                                    </a>
+                                                </li>
+                                                <li><i class="fa fa-calendar-alt"></i>&nbsp;&nbsp;<a
+                                                        href="my-calendar.html">My
+                                                        Calendar</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="text-truncate pl-25 sidebar-ul-border">
+                                                <li><img src="assets/images/icons/Icons-in-Black-11.svg" width="35"
+                                                        alt="">&nbsp;&nbsp;<a href="my-connection.html">My
+                                                        Connections
+                                                        <span
+                                                            class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                                </li>
+                                                <li><i class="fa fa-user-plus"></i>&nbsp;&nbsp;<a
+                                                        href="connection-requests.html">Connection Requests
+                                                        <span
+                                                            class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                                </li>
+                                                <li><i class="fa fa-rss-square"></i>&nbsp;&nbsp;<a
+                                                        href="following.html">Following
+                                                        <span
+                                                            class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                                </li>
+                                                <li><img src="assets/images/icons/Icons-in-Black-09.svg" width="35"
+                                                        alt="">&nbsp;&nbsp;<a href="followers.html">Followers
+                                                        <span
+                                                            class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                                </li>
+                                                <li><img src="assets/images/icons/Icons-in-Black-04.svg" width="35"
+                                                        alt="">&nbsp;&nbsp;<a href="who-is-online.html">Who's online
+                                                        <span
+                                                            class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                                </li>
+                                            </ul>
+                                            <ul class="text-truncate pl-25 sidebar-ul-border">
+                                                <li><img src="assets/images/icons/Icons-in-Black-12.svg" width="35"
+                                                        alt="">&nbsp;&nbsp;<a href="my-profile-views.html">My
+                                                        Profile Views
+                                                        <span
+                                                            class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                                </li>
+                                                <li><img src="assets/images/icons/Icons-in-Black-12.svg" width="35"
+                                                        alt="">&nbsp;&nbsp;<a href="my-opportunity.html">My
+                                                        Opportunity...
+                                                        <span
+                                                            class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                                </li>
+                                            </ul>
+                                            <ul class="text-truncate pl-25 sidebar-ul-border">
+                                                <li><i class="fa fa-database"></i>&nbsp;&nbsp;<a
+                                                        href="company-bookmarks.html">Company
+                                                        Bookmarks</a></li>
+                                                <li><i class="fa fa-user-circle"></i>&nbsp;&nbsp;<a
+                                                        href="profile-edit.html">Update
+                                                        Profile</a></li>
+                                                <li><img src="assets/images/icons/Contacts.svg" width="35"
+                                                        alt="">&nbsp;&nbsp;<a href="contact-us.html">Contact Us</a>
+                                                </li>
+                                                <li><img src="assets/images/icons/blank.svg" width="35"
+                                                        alt="">&nbsp;&nbsp;<a href="imprint.html">Imprint/Terms</a>
+                                                </li>
+                                            </ul>
+                                            <img src="assets/images/logo-1.png" alt="" class="pt-2 img-fluid pb-25">
+                                            <img src="assets/images/logo-2.png" alt="" class="pb-2 img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="content" class="col-lg-9 col-md-12 col-sm-12">
+                                <div class="d-flex mb-50 d-block d-md-none">
+                                    <button class="mt-0 ml-0 navbar-toggler profile-mobi btn-md btn btn-block"
+                                        type="button" onclick="openNav()"><i class="fa fa-bars d-lg-none"></i>
+                                        My Dashboard</button>
+                                    <a href="meeting-agenda.html"
+                                        class="px-0 mt-0 mr-0 navbar-toggler profile-mobi btn-md btn btn-block d-flex align-items-center justify-content-between"
+                                        type="button">
+                                        <!-- <i class="fa fa-share-square-o" aria-hidden="true"></i> -->
+                                        <span class="text-center w-100">Meeting Manager</span>
+                                        <badge class="rounded badge-sm badge-primary p-25 mr-25 bg-secondary">xx</badge>
+                                    </a>
+                                </div>
+                                <section id="simple-user-cards" class="card border-secondary">
+                                    <div class="text-white card-header bg-red-extra d-flex align-items-center">
+                                        <button type="button" class="btn btn-sm btn-dark round pull-left d-block d-lg-none" aria-expanded="false" onclick="javascript:history.go(-1)">
+                                            Back
+                                        </button>
+                                        <h4
+                                            class="text-center text-white card-title text-bold-600 w-100">
+                                            Who's online</h4> <i class="text-white fa fa-question-circle"
+                                            data-toggle="popover" data-placement="bottom" data-content=""
+                                            data-trigger="hover" data-original-title="Industry Network"></i>
+                                    </div>
+                                    <hr class="m-0">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <form action="" method="post" class="w-100">
+                                                <div class="form-body">
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control"
+                                                            placeholder="Quick search" aria-label="Recipient's username"
+                                                            aria-describedby="basic-addon2">
+                                                        <div class="input-group-append">
+                                                            <button class="btn btn-secondary" type="button"><i
+                                                                    class="fa fa-search"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <span class="mx-25"></span>
+                                            <button class="btn btn-secondary text-nowrap" type="button"
+                                                data-toggle="collapse" data-target="#databseAdvancedSearch"
+                                                aria-expanded="false" aria-controls="databseAdvancedSearch">Advanced
+                                                Search</button>
+                                        </div>
+
+                                        <div class="collapse mt-50" id="databseAdvancedSearch">
+                                            <!-- advanced search form  -->
+                                            <form class="form w-100" action="index.html" method="post">
+                                                <div class="form-body">
+                                                    <div class="row mt-25">
+                                                        <div class="col-md">
+                                                            <div class="form-group">
+                                                                <label for="projectinput1">Name</label>
+                                                                <input type="text" id="projectinput10"
+                                                                    class="form-control" placeholder="Name"
+                                                                    name="fname">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md">
+                                                            <div class="form-group">
+                                                                <label for="projectinput1">Company</label>
+                                                                <input type="text" id="projectinput11"
+                                                                    class="form-control" placeholder="Company"
+                                                                    name="fname">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md">
+                                                            <div class="form-group">
+                                                                <label for="projectinput1">Main Category</label>
+                                                                <select class="form-control" id="countrySelect2">
+                                                                    <option value="">Select</option>
+                                                                    <option value="">otpion</option>
+                                                                    <option value="">otpion</option>
+                                                                    <option value="">otpion</option>
+                                                                    <option value="">otpion</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md">
+                                                            <div class="form-group">
+                                                                <label for="projectinput1">Sub-category</label>
+                                                                <select class="form-control" id="countrySelect3">
+                                                                    <option value="">Select</option>
+                                                                    <option value="">otpion</option>
+                                                                    <option value="">otpion</option>
+                                                                    <option value="">otpion</option>
+                                                                    <option value="">otpion</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row pb-50">
+                                                        <div class="col-md">
+                                                            <fieldset class="form-group">
+                                                                <label for="projectinput1">Genres</label>
+                                                                <select class="form-control" id="countrySelectTwo"
+                                                                    multiple="multiple">
+                                                                    <option value="2D Art / Animation"
+                                                                        selected="selected">
+                                                                        2D Art / Animation</option>
+                                                                    <option value="3D Art / Animation">3D Art /
+                                                                        Animation
+                                                                    </option>
+                                                                    <option value="Accounting" selected="selected">
+                                                                        Accounting</option>
+                                                                    <option value="Advertising">Advertising</option>
+                                                                    <option value="Analytics">Analytics</option>
+                                                                    <option value="Billing / Payment">Billing / Payment
+                                                                    </option>
+                                                                    <option value="Brand Management">Brand Management
+                                                                    </option>
+                                                                    <option value="Business Development"
+                                                                        selected="selected">Business Development
+                                                                    </option>
+                                                                    <option value="Community Management">Community
+                                                                        Management</option>
+                                                                    <option value="Customer Support">Customer Support
+                                                                    </option>
+                                                                    <option value="Design">Design</option>
+                                                                    <option value="Development">Development</option>
+                                                                    <option value="Distribution (Digital)">Distribution
+                                                                        (Digital)</option>
+                                                                    <option value="Distribution (Physical)">Distribution
+                                                                        (Physical)</option>
+                                                                    <option value="E-Sports">E-Sports</option>
+                                                                    <option value="Game Acquisition">Game Acquisition
+                                                                    </option>
+                                                                    <option value="Game Design">Game Design</option>
+                                                                    <option value="Graphics">Graphics</option>
+                                                                    <option value="HR / Recruitment">HR / Recruitment
+                                                                    </option>
+                                                                    <option value="Investment">Investment</option>
+                                                                    <option value="Law">Law</option>
+                                                                    <option value="Leadership">Leadership</option>
+                                                                    <option value="Legal">Legal</option>
+                                                                    <option value="Licensing">Licensing</option>
+                                                                    <option value="Localization">Localization</option>
+                                                                    <option value="Marketing">Marketing</option>
+                                                                    <option value="Monetization">Monetization</option>
+                                                                    <option value="Music">Music</option>
+                                                                    <option value="Other">Other</option>
+                                                                    <option value="PR">PR</option>
+                                                                    <option value="Product Management">Product
+                                                                        Management
+                                                                    </option>
+                                                                    <option value="Production">Production</option>
+                                                                    <option value="Programming">Programming</option>
+                                                                    <option value="Project Management">Project
+                                                                        Management
+                                                                    </option>
+                                                                    <option value="Publishing">Publishing</option>
+                                                                    <option value="QA">QA</option>
+                                                                    <option value="Retail">Retail</option>
+                                                                    <option value="Sales">Sales</option>
+                                                                    <option value="Sound">Sound</option>
+                                                                    <option value="Sound Effects">Sound Effects</option>
+                                                                    <option value="Technology">Technology</option>
+                                                                    <option value="UI Design">UI Design</option>
+                                                                </select>
+                                                            </fieldset>
+                                                        </div>
+                                                        <div class="col-md">
+                                                            <fieldset class="form-group">
+                                                                <label for="projectinput1">Territories</label>
+                                                                <select class="form-control" id="countrySelectThree"
+                                                                    multiple="multiple">
+                                                                    <option value="Africa" selected="selected">Africa
+                                                                    </option>
+                                                                    <option value="Asia">Asia</option>
+                                                                    <option value="Americas">Americas</option>
+                                                                    <option value="Europe" selected="selected">Europe
+                                                                    </option>
+                                                                    <option value="Africa" selected="selected">Africa
+                                                                    </option>
+                                                                    <option value="Asia">Asia</option>
+                                                                    <option value="Americas">Americas</option>
+                                                                    <option value="Europe" selected="selected">Europe
+                                                                    </option>
+                                                                </select>
+                                                            </fieldset>
+                                                        </div>
+                                                        <div class="col-md">
+                                                            <fieldset class="form-group">
+                                                                <label for="projectinput1">Platforms</label>
+                                                                <select class="form-control" id="countrySelectFour"
+                                                                    multiple="multiple">
+                                                                    <option value="PC / Mac / Linux"
+                                                                        selected="selected">PC
+                                                                        / Mac / Linux</option>
+                                                                    <option value="Web">Web</option>
+                                                                    <option value="Mobile">Mobile</option>
+                                                                    <option value="VR / AR">VR / AR</option>
+                                                                    <option value="Not applicable">Not applicable
+                                                                    </option>
+                                                                    <option value="Consoles" selected="selected">
+                                                                        Consoles
+                                                                    </option>
+                                                                </select>
+                                                            </fieldset>
+                                                        </div>
+                                                        <div class="col-md">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="projectinput1">Country</label>
+                                                                        <select class="form-control"
+                                                                            id="countrySelectFive">
+                                                                            <option value="Afghanistan">Select</option>
+                                                                            <option value="Afghanistan">Afghanistan
+                                                                            </option>
+                                                                            <option value="Åland Islands">Åland Islands
+                                                                            </option>
+                                                                            <option value="Albania">Albania</option>
+                                                                            <option value="Algeria">Algeria</option>
+                                                                            <option value="American Samoa">American
+                                                                                Samoa
+                                                                            </option>
+                                                                            <option value="Andorra">Andorra</option>
+                                                                            <option value="Angola">Angola</option>
+                                                                            <option value="Anguilla">Anguilla</option>
+                                                                            <option value="Antarctica">Antarctica
+                                                                            </option>
+                                                                            <option value="Antigua and Barbuda">Antigua
+                                                                                and
+                                                                                Barbuda</option>
+                                                                            <option value="Argentina">Argentina</option>
+                                                                            <option value="Armenia">Armenia</option>
+                                                                            <option value="Aruba">Aruba</option>
+                                                                            <option value="Australia">Australia</option>
+                                                                            <option value="Austria">Austria</option>
+                                                                            <option value="Azerbaijan">Azerbaijan
+                                                                            </option>
+                                                                            <option value="Bahamas">Bahamas</option>
+                                                                            <option value="Bahrain">Bahrain</option>
+                                                                            <option value="Bangladesh">Bangladesh
+                                                                            </option>
+                                                                            <option value="Barbados">Barbados</option>
+                                                                            <option value="Belarus">Belarus</option>
+                                                                            <option value="Belgium">Belgium</option>
+                                                                            <option value="Belize">Belize</option>
+                                                                            <option value="Benin">Benin</option>
+                                                                            <option value="Bermuda">Bermuda</option>
+                                                                            <option value="Bhutan">Bhutan</option>
+                                                                            <option value="Bolivia">Bolivia</option>
+                                                                            <option value="Bosnia and Herzegovina">
+                                                                                Bosnia
+                                                                                and Herzegovina</option>
+                                                                            <option value="Botswana">Botswana</option>
+                                                                            <option value="Bouvet Island">Bouvet Island
+                                                                            </option>
+                                                                            <option value="Brazil">Brazil</option>
+                                                                            <option
+                                                                                value="British Indian Ocean Territory">
+                                                                                British Indian Ocean Territory
+                                                                            </option>
+                                                                            <option value="Brunei Darussalam">Brunei
+                                                                                Darussalam</option>
+                                                                            <option value="Bulgaria">Bulgaria</option>
+                                                                            <option value="Burkina Faso">Burkina Faso
+                                                                            </option>
+                                                                            <option value="Burundi">Burundi</option>
+                                                                            <option value="Cambodia">Cambodia</option>
+                                                                            <option value="Cameroon">Cameroon</option>
+                                                                            <option value="Canada">Canada</option>
+                                                                            <option value="Cape Verde">Cape Verde
+                                                                            </option>
+                                                                            <option value="Cayman Islands">Cayman
+                                                                                Islands
+                                                                            </option>
+                                                                            <option value="Central African Republic">
+                                                                                Central
+                                                                                African Republic</option>
+                                                                            <option value="Chad">Chad</option>
+                                                                            <option value="Chile">Chile</option>
+                                                                            <option value="China">China</option>
+                                                                            <option value="Christmas Island">Christmas
+                                                                                Island</option>
+                                                                            <option value="Cocos (Keeling) Islands">
+                                                                                Cocos
+                                                                                (Keeling) Islands</option>
+                                                                            <option value="Colombia">Colombia</option>
+                                                                            <option value="Comoros">Comoros</option>
+                                                                            <option value="Congo">Congo</option>
+                                                                            <option
+                                                                                value="Congo, The Democratic Republic of The">
+                                                                                Congo, The Democratic
+                                                                                Republic of The</option>
+                                                                            <option value="Cook Islands">Cook Islands
+                                                                            </option>
+                                                                            <option value="Costa Rica">Costa Rica
+                                                                            </option>
+                                                                            <option value="Cote D'ivoire">Cote D'ivoire
+                                                                            </option>
+                                                                            <option value="Croatia">Croatia</option>
+                                                                            <option value="Cuba">Cuba</option>
+                                                                            <option value="Cyprus">Cyprus</option>
+                                                                            <option value="Czech Republic">Czech
+                                                                                Republic
+                                                                            </option>
+                                                                            <option value="Denmark">Denmark</option>
+                                                                            <option value="Djibouti">Djibouti</option>
+                                                                            <option value="Dominica">Dominica</option>
+                                                                            <option value="Dominican Republic">Dominican
+                                                                                Republic</option>
+                                                                            <option value="Ecuador">Ecuador</option>
+                                                                            <option value="Egypt">Egypt</option>
+                                                                            <option value="El Salvador">El Salvador
+                                                                            </option>
+                                                                            <option value="Equatorial Guinea">Equatorial
+                                                                                Guinea</option>
+                                                                            <option value="Eritrea">Eritrea</option>
+                                                                            <option value="Estonia">Estonia</option>
+                                                                            <option value="Ethiopia">Ethiopia</option>
+                                                                            <option value="Falkland Islands (Malvinas)">
+                                                                                Falkland Islands (Malvinas)</option>
+                                                                            <option value="Faroe Islands">Faroe Islands
+                                                                            </option>
+                                                                            <option value="Fiji">Fiji</option>
+                                                                            <option value="Finland">Finland</option>
+                                                                            <option value="France">France</option>
+                                                                            <option value="French Guiana">French Guiana
+                                                                            </option>
+                                                                            <option value="French Polynesia">French
+                                                                                Polynesia</option>
+                                                                            <option value="French Southern Territories">
+                                                                                French Southern Territories</option>
+                                                                            <option value="Gabon">Gabon</option>
+                                                                            <option value="Gambia">Gambia</option>
+                                                                            <option value="Georgia">Georgia</option>
+                                                                            <option value="Germany">Germany</option>
+                                                                            <option value="Ghana">Ghana</option>
+                                                                            <option value="Gibraltar">Gibraltar</option>
+                                                                            <option value="Greece">Greece</option>
+                                                                            <option value="Greenland">Greenland</option>
+                                                                            <option value="Grenada">Grenada</option>
+                                                                            <option value="Guadeloupe">Guadeloupe
+                                                                            </option>
+                                                                            <option value="Guam">Guam</option>
+                                                                            <option value="Guatemala">Guatemala</option>
+                                                                            <option value="Guernsey">Guernsey</option>
+                                                                            <option value="Guinea">Guinea</option>
+                                                                            <option value="Guinea-bissau">Guinea-bissau
+                                                                            </option>
+                                                                            <option value="Guyana">Guyana</option>
+                                                                            <option value="Haiti">Haiti</option>
+                                                                            <option
+                                                                                value="Heard Island and Mcdonald Islands">
+                                                                                Heard Island and Mcdonald
+                                                                                Islands</option>
+                                                                            <option
+                                                                                value="Holy See (Vatican City State)">
+                                                                                Holy See (Vatican City State)
+                                                                            </option>
+                                                                            <option value="Honduras">Honduras</option>
+                                                                            <option value="Hong Kong">Hong Kong</option>
+                                                                            <option value="Hungary">Hungary</option>
+                                                                            <option value="Iceland">Iceland</option>
+                                                                            <option value="India">India</option>
+                                                                            <option value="Indonesia">Indonesia</option>
+                                                                            <option value="Iran, Islamic Republic of">
+                                                                                Iran,
+                                                                                Islamic Republic of</option>
+                                                                            <option value="Iraq">Iraq</option>
+                                                                            <option value="Ireland">Ireland</option>
+                                                                            <option value="Isle of Man">Isle of Man
+                                                                            </option>
+                                                                            <option value="Israel">Israel</option>
+                                                                            <option value="Italy">Italy</option>
+                                                                            <option value="Jamaica">Jamaica</option>
+                                                                            <option value="Japan">Japan</option>
+                                                                            <option value="Jersey">Jersey</option>
+                                                                            <option value="Jordan">Jordan</option>
+                                                                            <option value="Kazakhstan">Kazakhstan
+                                                                            </option>
+                                                                            <option value="Kenya">Kenya</option>
+                                                                            <option value="Kiribati">Kiribati</option>
+                                                                            <option
+                                                                                value="Korea, Democratic People's Republic of">
+                                                                                Korea, Democratic
+                                                                                People's Republic of</option>
+                                                                            <option value="Korea, Republic of">Korea,
+                                                                                Republic of</option>
+                                                                            <option value="Kuwait">Kuwait</option>
+                                                                            <option value="Kyrgyzstan">Kyrgyzstan
+                                                                            </option>
+                                                                            <option
+                                                                                value="Lao People's Democratic Republic">
+                                                                                Lao
+                                                                                People's Democratic
+                                                                                Republic</option>
+                                                                            <option value="Latvia">Latvia</option>
+                                                                            <option value="Lebanon">Lebanon</option>
+                                                                            <option value="Lesotho">Lesotho</option>
+                                                                            <option value="Liberia">Liberia</option>
+                                                                            <option value="Libyan Arab Jamahiriya">
+                                                                                Libyan
+                                                                                Arab Jamahiriya</option>
+                                                                            <option value="Liechtenstein">Liechtenstein
+                                                                            </option>
+                                                                            <option value="Lithuania">Lithuania</option>
+                                                                            <option value="Luxembourg">Luxembourg
+                                                                            </option>
+                                                                            <option value="Macao">Macao</option>
+                                                                            <option
+                                                                                value="Macedonia, The Former Yugoslav Republic of">
+                                                                                Macedonia, The Former
+                                                                                Yugoslav Republic of</option>
+                                                                            <option value="Madagascar">Madagascar
+                                                                            </option>
+                                                                            <option value="Malawi">Malawi</option>
+                                                                            <option value="Malaysia">Malaysia</option>
+                                                                            <option value="Maldives">Maldives</option>
+                                                                            <option value="Mali">Mali</option>
+                                                                            <option value="Malta">Malta</option>
+                                                                            <option value="Marshall Islands">Marshall
+                                                                                Islands</option>
+                                                                            <option value="Martinique">Martinique
+                                                                            </option>
+                                                                            <option value="Mauritania">Mauritania
+                                                                            </option>
+                                                                            <option value="Mauritius">Mauritius</option>
+                                                                            <option value="Mayotte">Mayotte</option>
+                                                                            <option value="Mexico">Mexico</option>
+                                                                            <option
+                                                                                value="Micronesia, Federated States of">
+                                                                                Micronesia, Federated States of
+                                                                            </option>
+                                                                            <option value="Moldova, Republic of">
+                                                                                Moldova,
+                                                                                Republic of</option>
+                                                                            <option value="Monaco">Monaco</option>
+                                                                            <option value="Mongolia">Mongolia</option>
+                                                                            <option value="Montenegro">Montenegro
+                                                                            </option>
+                                                                            <option value="Montserrat">Montserrat
+                                                                            </option>
+                                                                            <option value="Morocco">Morocco</option>
+                                                                            <option value="Mozambique">Mozambique
+                                                                            </option>
+                                                                            <option value="Myanmar">Myanmar</option>
+                                                                            <option value="Namibia">Namibia</option>
+                                                                            <option value="Nauru">Nauru</option>
+                                                                            <option value="Nepal">Nepal</option>
+                                                                            <option value="Netherlands">Netherlands
+                                                                            </option>
+                                                                            <option value="Netherlands Antilles">
+                                                                                Netherlands
+                                                                                Antilles</option>
+                                                                            <option value="New Caledonia">New Caledonia
+                                                                            </option>
+                                                                            <option value="New Zealand">New Zealand
+                                                                            </option>
+                                                                            <option value="Nicaragua">Nicaragua</option>
+                                                                            <option value="Niger">Niger</option>
+                                                                            <option value="Nigeria">Nigeria</option>
+                                                                            <option value="Niue">Niue</option>
+                                                                            <option value="Norfolk Island">Norfolk
+                                                                                Island
+                                                                            </option>
+                                                                            <option value="Northern Mariana Islands">
+                                                                                Northern Mariana Islands</option>
+                                                                            <option value="Norway">Norway</option>
+                                                                            <option value="Oman">Oman</option>
+                                                                            <option value="Pakistan">Pakistan</option>
+                                                                            <option value="Palau">Palau</option>
+                                                                            <option
+                                                                                value="Palestinian Territory, Occupied">
+                                                                                Palestinian Territory, Occupied
+                                                                            </option>
+                                                                            <option value="Panama">Panama</option>
+                                                                            <option value="Papua New Guinea">Papua New
+                                                                                Guinea</option>
+                                                                            <option value="Paraguay">Paraguay</option>
+                                                                            <option value="Peru">Peru</option>
+                                                                            <option value="Philippines">Philippines
+                                                                            </option>
+                                                                            <option value="Pitcairn">Pitcairn</option>
+                                                                            <option value="Poland">Poland</option>
+                                                                            <option value="Portugal">Portugal</option>
+                                                                            <option value="Puerto Rico">Puerto Rico
+                                                                            </option>
+                                                                            <option value="Qatar">Qatar</option>
+                                                                            <option value="Reunion">Reunion</option>
+                                                                            <option value="Romania">Romania</option>
+                                                                            <option value="Russian Federation">Russian
+                                                                                Federation</option>
+                                                                            <option value="Rwanda">Rwanda</option>
+                                                                            <option value="Saint Helena">Saint Helena
+                                                                            </option>
+                                                                            <option value="Saint Kitts and Nevis">Saint
+                                                                                Kitts and Nevis</option>
+                                                                            <option value="Saint Lucia">Saint Lucia
+                                                                            </option>
+                                                                            <option value="Saint Pierre and Miquelon">
+                                                                                Saint
+                                                                                Pierre and Miquelon</option>
+                                                                            <option
+                                                                                value="Saint Vincent and The Grenadines">
+                                                                                Saint Vincent and The
+                                                                                Grenadines</option>
+                                                                            <option value="Samoa">Samoa</option>
+                                                                            <option value="San Marino">San Marino
+                                                                            </option>
+                                                                            <option value="Sao Tome and Principe">Sao
+                                                                                Tome
+                                                                                and Principe</option>
+                                                                            <option value="Saudi Arabia">Saudi Arabia
+                                                                            </option>
+                                                                            <option value="Senegal">Senegal</option>
+                                                                            <option value="Serbia">Serbia</option>
+                                                                            <option value="Seychelles">Seychelles
+                                                                            </option>
+                                                                            <option value="Sierra Leone">Sierra Leone
+                                                                            </option>
+                                                                            <option value="Singapore">Singapore</option>
+                                                                            <option value="Slovakia">Slovakia</option>
+                                                                            <option value="Slovenia">Slovenia</option>
+                                                                            <option value="Solomon Islands">Solomon
+                                                                                Islands
+                                                                            </option>
+                                                                            <option value="Somalia">Somalia</option>
+                                                                            <option value="South Africa">South Africa
+                                                                            </option>
+                                                                            <option
+                                                                                value="South Georgia and The South Sandwich Islands">
+                                                                                South Georgia and
+                                                                                The South Sandwich Islands</option>
+                                                                            <option value="Spain">Spain</option>
+                                                                            <option value="Sri Lanka">Sri Lanka</option>
+                                                                            <option value="Sudan">Sudan</option>
+                                                                            <option value="Suriname">Suriname</option>
+                                                                            <option value="Svalbard and Jan Mayen">
+                                                                                Svalbard
+                                                                                and Jan Mayen</option>
+                                                                            <option value="Swaziland">Swaziland</option>
+                                                                            <option value="Sweden">Sweden</option>
+                                                                            <option value="Switzerland">Switzerland
+                                                                            </option>
+                                                                            <option value="Syrian Arab Republic">Syrian
+                                                                                Arab
+                                                                                Republic</option>
+                                                                            <option value="Taiwan, Province of China">
+                                                                                Taiwan, Province of China</option>
+                                                                            <option value="Tajikistan">Tajikistan
+                                                                            </option>
+                                                                            <option
+                                                                                value="Tanzania, United Republic of">
+                                                                                Tanzania, United Republic of
+                                                                            </option>
+                                                                            <option value="Thailand">Thailand</option>
+                                                                            <option value="Timor-leste">Timor-leste
+                                                                            </option>
+                                                                            <option value="Togo">Togo</option>
+                                                                            <option value="Tokelau">Tokelau</option>
+                                                                            <option value="Tonga">Tonga</option>
+                                                                            <option value="Trinidad and Tobago">Trinidad
+                                                                                and
+                                                                                Tobago</option>
+                                                                            <option value="Tunisia">Tunisia</option>
+                                                                            <option value="Turkey">Turkey</option>
+                                                                            <option value="Turkmenistan">Turkmenistan
+                                                                            </option>
+                                                                            <option value="Turks and Caicos Islands">
+                                                                                Turks
+                                                                                and Caicos Islands</option>
+                                                                            <option value="Tuvalu">Tuvalu</option>
+                                                                            <option value="Uganda">Uganda</option>
+                                                                            <option value="Ukraine">Ukraine</option>
+                                                                            <option value="United Arab Emirates">United
+                                                                                Arab
+                                                                                Emirates</option>
+                                                                            <option value="United Kingdom">United
+                                                                                Kingdom
+                                                                            </option>
+                                                                            <option value="United States">United States
+                                                                            </option>
+                                                                            <option
+                                                                                value="United States Minor Outlying Islands">
+                                                                                United States Minor
+                                                                                Outlying Islands</option>
+                                                                            <option value="Uruguay">Uruguay</option>
+                                                                            <option value="Uzbekistan">Uzbekistan
+                                                                            </option>
+                                                                            <option value="Vanuatu">Vanuatu</option>
+                                                                            <option value="Venezuela">Venezuela</option>
+                                                                            <option value="Viet Nam">Viet Nam</option>
+                                                                            <option value="Virgin Islands, British">
+                                                                                Virgin
+                                                                                Islands, British</option>
+                                                                            <option value="Virgin Islands, U.S.">Virgin
+                                                                                Islands, U.S.</option>
+                                                                            <option value="Wallis and Futuna">Wallis and
+                                                                                Futuna</option>
+                                                                            <option value="Western Sahara">Western
+                                                                                Sahara
+                                                                            </option>
+                                                                            <option value="Yemen">Yemen</option>
+                                                                            <option value="Zambia">Zambia</option>
+                                                                            <option value="Zimbabwe">Zimbabwe</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="projectinput1">City</label>
+                                                                        <select class="form-control"
+                                                                            id="countrySelectSix">
+                                                                            <option value="">Select</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <button type="submit"
+                                                                        class="text-white btn bg-success-2 btn-block">
+                                                                        Search
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <!-- ./advanced search form  -->
+                                        </div>
+
+                                        <div class="w-100 py-50 position-relative mt-2">
+                                            <a class="text-dark" data-toggle="collapse" href="#db-info-littlo"
+                                                role="button" aria-expanded="false" aria-controls="db-info-littlo">
+                                                <i class="fa fa-times-circle position-absolute db-info-close"></i>
+                                            </a>
+
+                                            <p class="pb-0" id="db-info-littlo">
+                                                Find, connect, message, follow, suggest meetings and add to
+                                                your business development list and pipeline
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- ./ Search  and Advanced search   -->
+                                    <div class="card-content bg-light-grey">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <p class="px-1 pt-50 text-bold-600">Found: (Number of results)</p>
+                                            <div class="flex d-flex align-items-center justify-content-end px-75">
+                                                <p class="mb-0 pr-75">Select view: List </p>
+                                                <div class="btn-group" role="group"
+                                                    aria-label="Basic example">
+                                                    <button type="button" onclick="location.href='who-is-online-list.html'"
+                                                        class="btn btn-secondary">
+                                                        <svg id="SvgjsSvg1001" width="20" height="20"
+                                                            xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                            xmlns:svgjs="http://svgjs.com/svgjs">
+                                                            <defs id="SvgjsDefs1002"></defs>
+                                                            <g id="SvgjsG1008" transform="matrix(1,0,0,1,0,0)"><svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 24 24" width="20" height="20">
+                                                                    <g data-name="Layer 2" fill="#ffffff"
+                                                                        class="color000 svgShape">
+                                                                        <g data-name="list" fill="#ffffff"
+                                                                            class="color000 svgShape">
+                                                                            <rect width="24" height="24" opacity="0"
+                                                                                transform="rotate(180 12 12)"
+                                                                                fill="#ffffff"
+                                                                                class="color000 svgShape"></rect>
+                                                                            <circle cx="4" cy="7" r="1" fill="#ffffff"
+                                                                                class="color000 svgShape"></circle>
+                                                                            <circle cx="4" cy="12" r="1" fill="#ffffff"
+                                                                                class="color000 svgShape"></circle>
+                                                                            <circle cx="4" cy="17" r="1" fill="#ffffff"
+                                                                                class="color000 svgShape"></circle>
+                                                                            <rect width="14" height="2" x="7" y="11"
+                                                                                rx=".94" ry=".94" fill="#ffffff"
+                                                                                class="color000 svgShape">
+                                                                            </rect>
+                                                                            <rect width="14" height="2" x="7" y="16"
+                                                                                rx=".94" ry=".94" fill="#ffffff"
+                                                                                class="color000 svgShape">
+                                                                            </rect>
+                                                                            <rect width="14" height="2" x="7" y="6"
+                                                                                rx=".94" ry=".94" fill="#ffffff"
+                                                                                class="color000 svgShape">
+                                                                            </rect>
+                                                                        </g>
+                                                                    </g>
+                                                                </svg></g>
+                                                            <0svg>
+                                                    </button>
+                                                    <button onclick="location.href='who-is-online.html'"
+                                                        type="button" class="btn btn-secondary">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                            fill="none" viewBox="0 0 16 16">
+                                                            <path fill="#fff"
+                                                                d="M1.99994 4C1.99994 2.89543 2.89537 2 3.99994 2H11.9999C13.1045 2 13.9999 2.89543 13.9999 4V12C13.9999 13.1046 13.1045 14 11.9999 14H3.99994C2.89537 14 1.99994 13.1046 1.99994 12V4ZM3.99994 3C3.44765 3 2.99994 3.44772 2.99994 4V12C2.99994 12.5523 3.44765 13 3.99994 13H11.9999C12.5522 13 12.9999 12.5523 12.9999 12V4C12.9999 3.44772 12.5522 3 11.9999 3H3.99994Z" />
+                                                        </svg>
+                                                    </button>
+                                                    <button onclick="location.href='who-is-online-tiles.html'" type="button"
+                                                        class="btn btn-secondary">
+                                                        <svg id="SvgjsSvg1019" width="20" height="20"
+                                                            xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                            xmlns:svgjs="http://svgjs.com/svgjs">
+                                                            <defs id="SvgjsDefs1020"></defs>
+                                                            <g id="SvgjsG1021" transform="matrix(1,0,0,1,0,0)"><svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 256 256" width="20" height="20">
+                                                                    <rect width="256" height="256" fill="none"></rect>
+                                                                    <circle cx="128" cy="128" r="96" fill="none"
+                                                                        stroke="#ffffff" stroke-linecap="round"
+                                                                        stroke-linejoin="round" stroke-width="24"
+                                                                        class="colorStroke000 svgStroke"></circle>
+                                                                </svg></g>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body pt-25 px-25">
+                                            <div class="row match-height no-gutters">
+
+                                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 px-25">
+                                                    <div class="bg-white card profile-card-with-cover border-lighten-2">
+                                                        <div class="text-center pt-75">
+                                                            <img src="assets/images/portrait/small/avatar-s-9.png"
+                                                                class="rounded-circle img-border" width="100"
+                                                                alt="Card image">
+                                                        </div>
+                                                        <div class="text-center profile-card-with-cover-content pt-75">
+                                                            <div class="card-body py-25">
+                                                                <h4 class="card-title mb-50 pb-25"><a
+                                                                        href="profile.html" class="text-dark">Juliet
+                                                                        Kramer</a></h4>
+                                                                <h6 class="card-subtitle text-muted pb-25">
+                                                                    (Biz Name)</h6>
+                                                                <a href="javascript:void(0);"
+                                                                    class="badge badge-primary mb-25 w-50">Department</a>
+                                                                <h6 class="card-subtitle text-muted mt-25 mb-50 pb-25">
+                                                                    (Title)
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 px-25">
+                                                    <div class="bg-white card profile-card-with-cover border-lighten-2">
+                                                        <div class="text-center pt-75">
+                                                            <img src="assets/images/portrait/small/avatar-s-9.png"
+                                                                class="rounded-circle img-border" width="100"
+                                                                alt="Card image">
+                                                        </div>
+                                                        <div class="text-center profile-card-with-cover-content pt-75">
+                                                            <div class="card-body py-25">
+                                                                <h4 class="card-title mb-50 pb-25"><a
+                                                                        href="profile.html" class="text-dark">Juliet
+                                                                        Kramer</a></h4>
+                                                                <h6 class="card-subtitle text-muted pb-25">
+                                                                    (Biz Name)</h6>
+                                                                <a href="javascript:void(0);"
+                                                                    class="badge badge-primary mb-25 w-50">Department</a>
+                                                                <h6 class="card-subtitle text-muted mt-25 mb-50 pb-25">
+                                                                    (Title)
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 px-25">
+                                                    <div class="bg-white card profile-card-with-cover border-lighten-2">
+                                                        <div class="text-center pt-75">
+                                                            <img src="assets/images/portrait/small/avatar-s-9.png"
+                                                                class="rounded-circle img-border" width="100"
+                                                                alt="Card image">
+                                                        </div>
+                                                        <div class="text-center profile-card-with-cover-content pt-75">
+                                                            <div class="card-body py-25">
+                                                                <h4 class="card-title mb-50 pb-25"><a
+                                                                        href="profile.html" class="text-dark">Juliet
+                                                                        Kramer</a></h4>
+                                                                <h6 class="card-subtitle text-muted pb-25">
+                                                                    (Biz Name)</h6>
+                                                                <a href="javascript:void(0);"
+                                                                    class="badge badge-primary mb-25 w-50">Department</a>
+                                                                <h6 class="card-subtitle text-muted mt-25 mb-50 pb-25">
+                                                                    (Title)
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 px-25">
+                                                    <div class="bg-white card profile-card-with-cover border-lighten-2">
+                                                        <div class="text-center pt-75">
+                                                            <img src="assets/images/portrait/small/avatar-s-9.png"
+                                                                class="rounded-circle img-border" width="100"
+                                                                alt="Card image">
+                                                        </div>
+                                                        <div class="text-center profile-card-with-cover-content pt-75">
+                                                            <div class="card-body py-25">
+                                                                <h4 class="card-title mb-50 pb-25"><a
+                                                                        href="profile.html" class="text-dark">Juliet
+                                                                        Kramer</a></h4>
+                                                                <h6 class="card-subtitle text-muted pb-25">
+                                                                    (Biz Name)</h6>
+                                                                <a href="javascript:void(0);"
+                                                                    class="badge badge-primary mb-25 w-50">Department</a>
+                                                                <h6 class="card-subtitle text-muted mt-25 mb-50 pb-25">
+                                                                    (Title)
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 px-25">
+                                                    <div class="bg-white card profile-card-with-cover border-lighten-2">
+                                                        <div class="text-center pt-75">
+                                                            <img src="assets/images/portrait/small/avatar-s-9.png"
+                                                                class="rounded-circle img-border" width="100"
+                                                                alt="Card image">
+                                                        </div>
+                                                        <div class="text-center profile-card-with-cover-content pt-75">
+                                                            <div class="card-body py-25">
+                                                                <h4 class="card-title mb-50 pb-25"><a
+                                                                        href="profile.html" class="text-dark">Juliet
+                                                                        Kramer</a></h4>
+                                                                <h6 class="card-subtitle text-muted pb-25">
+                                                                    (Biz Name)</h6>
+                                                                <a href="javascript:void(0);"
+                                                                    class="badge badge-primary mb-25 w-50">Department</a>
+                                                                <h6 class="card-subtitle text-muted mt-25 mb-50 pb-25">
+                                                                    (Title)
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 px-25">
+                                                    <div class="bg-white card profile-card-with-cover border-lighten-2">
+                                                        <div class="text-center pt-75">
+                                                            <img src="assets/images/portrait/small/avatar-s-9.png"
+                                                                class="rounded-circle img-border" width="100"
+                                                                alt="Card image">
+                                                        </div>
+                                                        <div class="text-center profile-card-with-cover-content pt-75">
+                                                            <div class="card-body py-25">
+                                                                <h4 class="card-title mb-50 pb-25"><a
+                                                                        href="profile.html" class="text-dark">Juliet
+                                                                        Kramer</a></h4>
+                                                                <h6 class="card-subtitle text-muted pb-25">
+                                                                    (Biz Name)</h6>
+                                                                <a href="javascript:void(0);"
+                                                                    class="badge badge-primary mb-25 w-50">Department</a>
+                                                                <h6 class="card-subtitle text-muted mt-25 mb-50 pb-25">
+                                                                    (Title)
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 px-25">
+                                                    <div class="bg-white card profile-card-with-cover border-lighten-2">
+                                                        <div class="text-center pt-75">
+                                                            <img src="assets/images/portrait/small/avatar-s-9.png"
+                                                                class="rounded-circle img-border" width="100"
+                                                                alt="Card image">
+                                                        </div>
+                                                        <div class="text-center profile-card-with-cover-content pt-75">
+                                                            <div class="card-body py-25">
+                                                                <h4 class="card-title mb-50 pb-25"><a
+                                                                        href="profile.html" class="text-dark">Juliet
+                                                                        Kramer</a></h4>
+                                                                <h6 class="card-subtitle text-muted pb-25">
+                                                                    (Biz Name)</h6>
+                                                                <a href="javascript:void(0);"
+                                                                    class="badge badge-primary mb-25 w-50">Department</a>
+                                                                <h6 class="card-subtitle text-muted mt-25 mb-50 pb-25">
+                                                                    (Title)
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 px-25">
+                                                    <div class="bg-white card profile-card-with-cover border-lighten-2">
+                                                        <div class="text-center pt-75">
+                                                            <img src="assets/images/portrait/small/avatar-s-9.png"
+                                                                class="rounded-circle img-border" width="100"
+                                                                alt="Card image">
+                                                        </div>
+                                                        <div class="text-center profile-card-with-cover-content pt-75">
+                                                            <div class="card-body py-25">
+                                                                <h4 class="card-title mb-50 pb-25"><a
+                                                                        href="profile.html" class="text-dark">Juliet
+                                                                        Kramer</a></h4>
+                                                                <h6 class="card-subtitle text-muted pb-25">
+                                                                    (Biz Name)</h6>
+                                                                <a href="javascript:void(0);"
+                                                                    class="badge badge-primary mb-25 w-50">Department</a>
+                                                                <h6 class="card-subtitle text-muted mt-25 mb-50 pb-25">
+                                                                    (Title)
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 px-25">
+                                                    <div class="bg-white card profile-card-with-cover border-lighten-2">
+                                                        <div class="text-center pt-75">
+                                                            <img src="assets/images/portrait/small/avatar-s-9.png"
+                                                                class="rounded-circle img-border" width="100"
+                                                                alt="Card image">
+                                                        </div>
+                                                        <div class="text-center profile-card-with-cover-content pt-75">
+                                                            <div class="card-body py-25">
+                                                                <h4 class="card-title mb-50 pb-25"><a
+                                                                        href="profile.html" class="text-dark">Juliet
+                                                                        Kramer</a></h4>
+                                                                <h6 class="card-subtitle text-muted pb-25">
+                                                                    (Biz Name)</h6>
+                                                                <a href="javascript:void(0);"
+                                                                    class="badge badge-primary mb-25 w-50">Department</a>
+                                                                <h6 class="card-subtitle text-muted mt-25 mb-50 pb-25">
+                                                                    (Title)
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 px-25">
+                                                    <div class="bg-white card profile-card-with-cover border-lighten-2">
+                                                        <div class="text-center pt-75">
+                                                            <img src="assets/images/portrait/small/avatar-s-9.png"
+                                                                class="rounded-circle img-border" width="100"
+                                                                alt="Card image">
+                                                        </div>
+                                                        <div class="text-center profile-card-with-cover-content pt-75">
+                                                            <div class="card-body py-25">
+                                                                <h4 class="card-title mb-50 pb-25"><a
+                                                                        href="profile.html" class="text-dark">Juliet
+                                                                        Kramer</a></h4>
+                                                                <h6 class="card-subtitle text-muted pb-25">
+                                                                    (Biz Name)</h6>
+                                                                <a href="javascript:void(0);"
+                                                                    class="badge badge-primary mb-25 w-50">Department</a>
+                                                                <h6 class="card-subtitle text-muted mt-25 mb-50 pb-25">
+                                                                    (Title)
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 px-25">
+                                                    <div class="bg-white card profile-card-with-cover border-lighten-2">
+                                                        <div class="text-center pt-75">
+                                                            <img src="assets/images/portrait/small/avatar-s-9.png"
+                                                                class="rounded-circle img-border" width="100"
+                                                                alt="Card image">
+                                                        </div>
+                                                        <div class="text-center profile-card-with-cover-content pt-75">
+                                                            <div class="card-body py-25">
+                                                                <h4 class="card-title mb-50 pb-25"><a
+                                                                        href="profile.html" class="text-dark">Juliet
+                                                                        Kramer</a></h4>
+                                                                <h6 class="card-subtitle text-muted pb-25">
+                                                                    (Biz Name)</h6>
+                                                                <a href="javascript:void(0);"
+                                                                    class="badge badge-primary mb-25 w-50">Department</a>
+                                                                <h6 class="card-subtitle text-muted mt-25 mb-50 pb-25">
+                                                                    (Title)
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 px-25">
+                                                    <div class="bg-white card profile-card-with-cover border-lighten-2">
+                                                        <div class="text-center pt-75">
+                                                            <img src="assets/images/portrait/small/avatar-s-9.png"
+                                                                class="rounded-circle img-border" width="100"
+                                                                alt="Card image">
+                                                        </div>
+                                                        <div class="text-center profile-card-with-cover-content pt-75">
+                                                            <div class="card-body py-25">
+                                                                <h4 class="card-title mb-50 pb-25"><a
+                                                                        href="profile.html" class="text-dark">Juliet
+                                                                        Kramer</a></h4>
+                                                                <h6 class="card-subtitle text-muted pb-25">
+                                                                    (Biz Name)</h6>
+                                                                <a href="javascript:void(0);"
+                                                                    class="badge badge-primary mb-25 w-50">Department</a>
+                                                                <h6 class="card-subtitle text-muted mt-25 mb-50 pb-25">
+                                                                    (Title)
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- Birthday Card -->
+                        </div>
+                    </section>
+                    <!--/ User Feed -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+
+    <!-- Subscribe Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-light">
+                    <h5 class="modal-title text-uppercase text-bold-600" id="exampleModalLongTitle">global games
+                        industry network
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Please subscribe to proceed...
+                </div>
+                <div class="modal-footer border-top-light">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="text-white btn bg-success-2">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- mtual connections modal  -->
+    <div class="modal fade" id="mutualConnections" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-light">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="pb-4 modal-body">
+                    <a href="mutual-connections.html" class="text-dark">
+                        <div class="d-flex align-items-center">
+                            <div class="images-mutual">
+                                <img src="assets/images/portrait/small/avatar-s-1.png" alt=""
+                                    class="img-fluid rounded-circle width-30 mrb-5px">
+                                <img src="assets/images/portrait/small/avatar-s-1.png" alt=""
+                                    class="img-fluid rounded-circle width-30 mrb-5px mutual-con-image">
+                            </div>
+                            <div class="w-100">
+                                <p class="mb-0"><a href="mutual-connections.html" class="text-dark">7 Mutual
+                                        Connections</a></p>
+                                <p class="mb-0"><small><a href="mutual-connections.html">You and Lee both know Whitney
+                                            Deason, Harold
+                                            "Mac" Deason and 6
+                                            others (Tap to view)</a></small></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="h--200">
+        <div class="m-auto col-md-4 social-icon-section">
+            <div class="col-3 social-icon">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+            </div>
+            <div class="col-3 social-icon">
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </div>
+            <div class="col-3 social-icon">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="col-3 social-icon">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="abt-link-section">
+            <a href="#">IMPRINT / IMPRESSUM</a>
+        </div>
+        <div class="p-2">
+            &copy;2020 Games Industry Network
+        </div>
+    </footer>
+
+
+    <!-- BEGIN: Vendor JS-->
+    <!-- <script src="https://unpkg.com/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script> -->
+    <script src="assets/js/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="assets/js/vendors/js/ui/jquery.sticky.js"></script>
+    <script src="assets/js/vendors/jquery.star-rating-svg.js"></script>
+    <script src="assets/js/ratings-callback.js"></script>
+    <script src="assets/js/nav-toggler.js"></script>
+    <!-- <script src="assets/js/sticky-sidebar.js"></script> -->
+
+
+    <!-- END: Page Vendor JS-->
+
+    <!-- Connect Button JS -->
+    <script type="text/javascript">
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+
+        function change() // no ';' here
+        {
+            var elem = document.getElementByClassName("connectButton");
+            if (elem.innerHTML == "Connect") elem.innerHTML = "Pending Request";
+            else if (elem.innerHTML == "Pending Request") elem.innerHTML = "Withdraw Request";
+            else elem.innerHTML = "Connect";
+        }
+    </script>
+    <!-- END: Connect Button JS-->
+
+    <script type="text/javascript">
+        //Add active class to the current control button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            })
+        }
+    </script>
+
+</body>
+<!-- END: Body-->
+
+
+</html>

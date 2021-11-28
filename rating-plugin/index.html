@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js" charset="utf-8"></script>
+    <script src="rater.js" charset="utf-8"></script>
+    <script>
+        $(document).ready(function () {
+            $("#rate7").rate({
+                selected_symbol_type: 'image2',
+                max_value: 3,
+                step_size: 1,
+                update_input_field_name: $("#input1"),
+                only_select_one_symbol: true,
+                symbols: {
+                    image2: {
+                        base: ['<div style="background-image: url(\'./images/red-diamond-2.svg\');" class="im2">&nbsp;</div>',
+                            '<div style="background-image: url(\'./images/red-diamond-3.svg\');" class="im2">&nbsp;</div>',
+                            '<div style="background-image: url(\'./images/red-diamond-4.svg\');" class="im2">&nbsp;</div>',
+                        ],
+                        hover: ['<div style="background-image: url(\'./images/red-diamond-2.svg\');" class="im2">&nbsp;</div>',
+                            '<div style="background-image: url(\'./images/red-diamond-3.svg\');" class="im2">&nbsp;</div>',
+                            '<div style="background-image: url(\'./images/red-diamond-4.svg\');" class="im2">&nbsp;</div>',
+                        ],
+                        selected: [
+                            '<div style="background-image: url(\'./images/red-diamond-2.svg\');" class="im2">&nbsp;</div>',
+                            '<div style="background-image: url(\'./images/red-diamond-3.svg\');" class="im2">&nbsp;</div>',
+                            '<div style="background-image: url(\'./images/red-diamond-4.svg\');" class="im2">&nbsp;</div>',
+                        ],
+                    },
+                },
+            });
+        });
+    </script>
+
+    <style>
+        body {
+            font-size: 35px;
+            font-family: sans-serif;
+        }
+
+        .rate-base-layer {
+            color: #aaa;
+        }
+
+        .rate-hover-layer {
+            color: orange;
+        }
+
+        .im2 {
+            background-image: url('./images/emoji5.png');
+            background-size: 64px 64px;
+            background-repeat: no-repeat;
+            width: 64px;
+            height: 64px;
+            display: inline-block;
+            background-color: grey;
+            margin: 2px;
+            border-radius: 5px;
+        }
+
+        #rate5 .rate-base-layer span,
+        #rate7 .rate-base-layer span {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="rate7"></div>
+
+    <input id="input1" type="text">
+</body>
+
+</html>
